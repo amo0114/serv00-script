@@ -83,7 +83,7 @@ deploy_vless() {
     # 保存pm2进程状态
     ~/.npm-global/bin/pm2 save
     # ANSI颜色码
-    output_yi_xiu
+    # output_yi_xiu
     echo -e "端口号: ${GREEN}${port}${NC}"
     echo -e "UUID: ${GREEN}${uuid}${NC}"
     echo -e "域名: ${GREEN}$USER.serv00.net${NC}"
